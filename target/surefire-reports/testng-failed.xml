@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="tests">
+	<listeners>
+		<listener class-name="qaclickacademy.Mavenjava.Listeners" />
+	</listeners>
+	<test name="Test(failed)" parallel="tests">
+		<classes>
+			<class name="qaclickacademy.Mavenjava.HomePage">
+				<methods>
+					<include name="Close" />
+					<include name="basePageNavigation" invocation-numbers="0 1" />
+					<include name="Initialize" />
+				</methods>
+			</class> <!-- qaclickacademy.Mavenjava.HomePage -->
+		</classes>
+	</test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
