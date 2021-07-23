@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml> 
 <Configuration status="WARN">
 	<Properties>
 		<Property name="basePath">./Logs</Property>
@@ -19,7 +20,7 @@
 		</Console>
 	</Appenders>
 	<Loggers>
-		<Root level="trace">
+		<Root level="TRACE">
 			<AppenderRef ref="File" />
 		</Root>
 	</Loggers>
